@@ -19,15 +19,19 @@ The steps below will take you all the way through Cypress. It is assumed you hav
 * [Cypress Docs](https://on.cypress.io)
 * [Cypress CLI Tool Docs](https://docs.cypress.io/guides/guides/command-line)
 
-### 1. Install Cypress
+### 1. Install Node
+
+[NodeJs download](https://nodejs.org/en/download/)
+
+### 2. Install Cypress
 
 [Follow these instructions to install Cypress.](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
-### 2. Install cypress-cucumber-preprocessor
+### 3. Install cypress-cucumber-preprocessor
 
 [Fololow these instruction to install and run cypress cucumber BDD](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
 
-### 2. Execute testing for this repo
+### 4. Execute testing for this repo
 
 #### a. install the node_modules
 ```npm install```
