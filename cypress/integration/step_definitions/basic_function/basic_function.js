@@ -4,8 +4,8 @@ let glNewCompanyName = ''
 let glUpdateComputerName = ''
 const glUpdateCompany = 'Netronics'
 
-Given(`I open the website {string}`, (url) => {
-  cy.visit(url)
+Given('I open the website', () => {
+  cy.visit()
 })
 
 Given('I click on add new computer button', () => {
