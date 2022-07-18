@@ -2,7 +2,7 @@ Feature: Computer Basic Function
   As a user I want to be able to run basic function for the website
 
   Background: The test envrionent is established
-    Given I open the website "https://computer-database.herokuapp.com/"
+    Given I open the website
 
   Scenario: The new computer should be able to add    
     Given I click on add new computer button
