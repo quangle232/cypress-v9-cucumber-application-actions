@@ -5,7 +5,7 @@ let glUpdateComputerName = ''
 const glUpdateCompany = 'Netronics'
 
 Given('I open the website', () => {
-  cy.visit()
+  cy.visit(Cypress.config().baseUrl)
 })
 
 Given('I click on add new computer button', () => {
